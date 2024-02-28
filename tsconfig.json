@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "target": "ES6",
+      "module": "CommonJS",
+      "moduleResolution": "Node",
+      "outDir": "./dist",      // compiled JavaScript
+      "rootDir": "./src",        //input ts files
+      "strict": true,
+      "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+    },
+    "include": ["src/**/*.ts", "Tests/**/*.ts"],
+  }
+
