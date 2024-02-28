@@ -39,3 +39,12 @@ FamilyChat.sendSMS("first message for all");
 FamilyChat.removeObserver(user2);
 FamilyChat.sendSMS("first message without youmna");
 FamilyChat.sendSMS("second message without youmna");
+/*   Notes   */
+/*
+Idea:Defines a one-to-many dependency between objects, where when one object changes state, all its dependents are notified and updated automatically.
+Usage:
+1- establish a flexible communication mechanism between objects for real-time updates, event notification, or data synchronization.
+2- Decopling observable and observer.
+
+Event emiter class follow the observer design
+*/ 
