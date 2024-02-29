@@ -147,3 +147,22 @@ waiter.takeOrder(addcomand2);
 waiter.takeOrder(removecommand);
 waiter.undoLastOrder();
 waiter.submitOrder();
+/* Notes */
+/*
+command as object encapsulate all details info to perform func
+instead of invoke methods directly we create methods as representation to perform invoke (decoupling)
+
+and mainly consists of four :
+target => reciever
+command => obj that invoke target methods
+invoker => execute the provided commands
+client => configure the needed commands and provide it to invoker
+
+Usage :
+1-track history of operations with optional undo operation (by storing the history of state)
+2- reduce coupling between sender and reciever direct
+3-allow queuing or logging requests
+
+Disadvantage: overhead wz additional objects for each action (inc no.of commands and memory usage)
+and kind of add complexity to the codebase
+*/ 
