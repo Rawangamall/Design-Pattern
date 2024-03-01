@@ -64,5 +64,5 @@ console.log(`Family car seats: ${familyCar.SeatsNumber()}`);
 familyCar.TestDrive();
 /*  Notes  */
 /*
-
+Extend from factory pattern , provide interface for creating multiple types obj of the same family
 */ 
