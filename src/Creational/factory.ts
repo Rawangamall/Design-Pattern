@@ -59,6 +59,7 @@ bus.TestDrive()
 /*  Notes  */
 
 /* 
-by providing interface or abstract class to define the common methods then create concrete classes
-factory fun takes arguments and based on it, it determine the type and deterimine the suitable concrete class and make instance of it
+Definition: provides an interface for creating objects and factory method takes arguments based on it,
+ it determine the type and deterimine the suitable concrete class and make instance of it
+
 */

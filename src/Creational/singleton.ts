@@ -31,4 +31,7 @@ Usage: manage shared resource
 Example: db connection , eeven module.cache of same current package act as singleton as after its first import 
 it will return the same instance without re-exectuion
 
+Drwabacks:
+Testing challenges: Testing applications relying heavily on singletons can be complex due to their global state and tightly coupled dependencies.
+Increased coupling: Tight coupling between different parts of the application due to their reliance on a single instance.
 */
